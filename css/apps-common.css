@@ -1,0 +1,78 @@
+
+html, body {
+    background-color: #FBFBFB;
+}
+body {
+    background: url("../img/wrapper1_black_top_bg.jpg") repeat-x;
+    background-position: 0 -8px;
+    height: 520px;
+}
+
+.navbar {color: #fff; margin-bottom: 0; background-color: #333; height: 40px; margin: 0 -20px;}
+.navbar .nav > li > a, .navbar .nav > li > a:hover {text-shadow: none; color: #efefef; }
+
+.navbar .user_info {
+    float: left;
+    display: block;
+    padding: 12px 20px 12px;
+    margin-left: -20px;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 1;
+    color: #efefef;
+}
+.nav-links {padding-left: 275px; float: left;}
+.logo {
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px #888;
+    box-shadow: 0 0 5px #888;
+    background-color: #fff;
+    width: 228px;
+    height: 80px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 1px solid #bebbbb;
+    text-align: center;
+    verticle-align: middle;
+}
+.logo img {
+    margin: 10px 0 0 0;
+    height: 55px;
+}
+
+
+/* White background content wrapper */
+.content {
+  background-color: #fff;
+  padding: 20px;
+  margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+  -webkit-border-radius: 0 0 6px 6px;
+     -moz-border-radius: 0 0 6px 6px;
+          border-radius: 0 0 6px 6px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.55);
+     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.55);
+          box-shadow: 0 1px 2px rgba(0,0,0,.55);
+}
+
+
+/* Page header tweaks */
+.page-header {
+  background: url("../img/header_bg.gif") repeat-x;
+  background-position: left bottom;
+  min-height: 52px;
+  padding-top: 0;
+  margin: 0 -20px; /* undo margin from bootstrap.css, negative indent to match .content width */
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+          box-shadow: 0 1px 2px rgba(0,0,0,.15);
+  border-bottom: 1px solid #999;
+}
+
+/* APPS footer w/ images */
+footer {padding: 0 10px 0 10px; line-height: 1; margin-top: 9px; margin-bottom: 30px; font-family: Verdana, Geneva, sans-serif; font-size: 12px; text-align:right;}
+.footer-brand:after {clear: both;}
+.footer-brand {float: right; width:395px; text-align:right;}
+.footer-brand span {float: right; padding: 5px 0 0 0;}
+.footerlogo {width:21px; height:23px; background-image:url(../img/imt_footer_logo.png); display:inline-block; background-repeat:no-repeat; background-position:1px top; }
+
